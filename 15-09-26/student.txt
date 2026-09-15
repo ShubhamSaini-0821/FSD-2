@@ -1,0 +1,6 @@
+Name : Shubham
+Roll No : 1142
+Branch : CSE
+Semester : 3rdSubject : Full Stack Development
+Marks : 90
+Attendance : 80%
