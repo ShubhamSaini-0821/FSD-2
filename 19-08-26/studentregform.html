@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">  <center>
+     <h1> Student Registration Form</h1>
+     <div id="formSuccess"></div>
+    <form id="form">
+        <table id="table" border="0">
+
+            <tr>
+                <td>Enter Your Name</td>
+                <td>
+                    <input type="text" class="t1" id="name">
+                    <span class="error-msg" id="nameError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Age</td>
+                <td>
+                    <input type="text" class="t1" id="age">
+                    <span class="error-msg" id="ageError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Email</td>
+                <td>
+                    <input type="text" class="t1" id="email">
+                    <span class="error-msg" id="emailError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Phone Number</td>
+                <td>
+                    <input type="text" class="t1" id="phone">
+                    <span class="error-msg" id="phoneError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Address</td>
+                <td>
+                    <textarea name="address" id="address" cols="20" rows="3"></textarea>
+                    <span class="error-msg" id="addressError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <span class="error-msg" id="genderError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Qualification</td>
+                <td>
+                    <select name="qualification" id="qualification">
+                        <option value="bca">BCA</option>
+                        <option value="bsc">BSC</option>
+                        <option value="bcom">BCOM</option>
+                        <option value="ba">BA</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                <td>Enter Your Hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="cricket">Cricket
+                    <input type="checkbox" name="hobbies" value="football">Football
+                    <input type="checkbox" name="hobbies" value="reading">Reading
+                    <input type="checkbox" name="hobbies" value="writing">Writing
+                </td>
+                </tr>
+                <tr>
+                <td>Enter Your Country</td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                <td>Enter Your State</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="maharashtra">Maharashtra</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="rajasthan">Rajasthan</option>
+                        <option value="punjab">Punjab</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                <td>Enter Your City</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="pune">Pune</option>
+                        <option value="ahmedabad">Ahmedabad</option>
+                        <option value="jaipur">Jaipur</option>
+                    </select>
+                </td>
+                </tr>
+            <tr>
+                <td colspan="2" align="center"><button id="submitBtn">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+    </center>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
